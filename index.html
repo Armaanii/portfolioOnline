@@ -17,7 +17,7 @@
     <!-- header -->
      
      <header class="active">
-        <a href="#" class="logo">Rodrigo.</a>
+        <a href="#" class="logo"><span>R</span>odrigo.</a>
 
         <i class='bx bx-menu' id="menu-icon"></i>
 
@@ -44,11 +44,11 @@
 
     <section class="home active">
         <div class="home-detail">
-            <h1>Rodrigo Guedes</h1>
+            <h1>Rodrigo Guedes<span>.</span></h1>
             <h2>Eu sou 
                 <span style="--i:4;" data-text="Programador">Programador</span>
                 <span style="--i:3;" data-text="Analista">Analista</span>
-                <span style="--i:2;" data-text="Dados">Dados</span>
+                <span style="--i:2;" data-text="Web">Web</span>
                 <span style="--i:1;" data-text="Designer">Designer</span>
             </h2>
             <p>Sou um desenvolvedor web apaixonado por desafios inovadores, 
@@ -84,20 +84,21 @@
                     <i class='bx bx-code-alt'></i>
                     <a href="#"><i class='bx bx-arrow-back'></i></a>    
                 </div>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem labore natus veniam, voluptatibus nam illum sapiente 
-                perferendis consectetur voluptas, facilis optio assumenda</p>
+                <h3>Analista de Sistema</h3>
+                <p>O analista de sistemas é responsável por estudar as necessidades de uma empresa ou organização e desenvolver soluções 
+                tecnológicas que otimizem seus processos.<br>
+                Ele atua na análise, planejamento, desenvolvimento e manutenção de sistemas de software, garantindo que esses sistemas 
+                atendam aos requisitos funcionais e operacionais.</p>
             </div>
 
             <div class="services-box">
                 <div class="icon">
-                    <i class='bx bxs-paint'></i>
+                    <i class='bx bx-code-curly'></i>
                     <a href="#"><i class='bx bx-arrow-back'></i></a>    
                 </div>
-                <h3>UI/UX</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem labore natus veniam, voluptatibus nam illum sapiente </p>
+                <h3>Engenheiro de Sistema</h3>
+                <p>Um engenheiro de sistemas é responsável pelo planejamento, desenvolvimento, implementação e gerenciamento de sistemas complexos, 
+                garantindo que todas as partes trabalhem de forma integrada e eficiente.</p>
             </div>
 
             <div class="services-box">
@@ -105,19 +106,11 @@
                     <i class='bx bx-palette'></i>
                     <a href="#"><i class='bx bx-arrow-back'></i></a>    
                 </div>
-                <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem labore natus veniam, voluptatibus nam illum sapiente</p>
-            </div>
-
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-trending-up'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
-                </div>
-                <h3>SEO</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem labore natus veniam, voluptatibus nam illum sapiente</p>
+                <h3>Design Gráfico</h3>
+                <p>O designer gráfico é o profissional que comunica ideias por meio de soluções visuais, 
+                unindo imagens, cores e tipografia. Ele desenvolve peças como logotipos, cartazes, 
+                embalagens e layouts para mídias digitais e impressas, garantindo que a comunicação visual 
+                esteja alinhada aos objetivos do cliente.</p>
             </div>
 
             <div class="services-box">
@@ -125,21 +118,11 @@
                     <i class='bx bx-slideshow'></i>
                     <a href="#"><i class='bx bx-arrow-back'></i></a>    
                 </div>
-                <h3>Video Editing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem labore natus veniam, voluptatibus nam illum sapiente </p>
-            </div>
-
-            <div class="services-box">
-                <div class="icon">
-                    <i class='bx bx-camera'></i>
-                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
-                </div>
-                <h3>Photography</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Autem labore natus veniam, voluptatibus nam illum sapiente 
-                perferendis consectetur voluptas, facilis optio assumenda 
-                non possimus totam odio explicabo quis id voluptate!</p>
+                <h3>Web Design</h3>
+                <p>O web designer é o profissional responsável por criar elementos visuais para websites, 
+                considerando o layout, a aparência e a usabilidade de uma página na internet. 
+                Seu trabalho é pautado em princípios de design, incluindo a seleção de cores, 
+                tipografia, imagens e outros elementos gráficos para criar uma experiência funcional para os usuários. </p>
             </div>
         </div>
     </section>
@@ -374,17 +357,18 @@
             </div>
 
             <div class="contact-box">
-                <form action="">
+                <form action="https://formsubmit.co/roh.barros@hotmail.com" method="post">
                     <h2 class="heading">Contact <span>Me!</span></h2>
                     <div class="field-box">
-                        <input type="text" placeholder="Full name" required>
-                        <input type="email" placeholder="Email Address" required>
-                        <input type="text" placeholder="Phone Number" required>
-                        <input type="text" placeholder="Email Subject" required>
-                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                        <input type="text" name="Full name" placeholder="Full name" required />
+                        <input type="email" name="Email Address" placeholder="Email Address" required />
+                        <input type="text" name="Phone Number" placeholder="Phone Numer" required />
+                        <input type="text" name="Email Subject" placeholder="Email Subject" required />
+                        <textarea name="message" id="" placeholder="Your Message" required></textarea>
                     </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
                     <button type="submit" class="btn">Send Mensage</button>
-                </form>
             </div>
         </div>    
     </section>
