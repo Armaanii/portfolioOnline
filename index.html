@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Personal Portfolio Website Using HTML CSS & JavaScript | Codehal</title>
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+     
+     <header class="active">
+        <a href="#" class="logo">Rodrigo.</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Resume</a>
+            <a href="#">Contact</a>
+        </nav>
+     </header>
+
+    <!-- bars background -->
+
+    <div class="bars-box active">
+        <div class="bar" style="--i:6;"></div>
+        <div class="bar" style="--i:5;"></div>
+        <div class="bar" style="--i:4;"></div>
+        <div class="bar" style="--i:3;"></div>
+        <div class="bar" style="--i:2;"></div>
+        <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <!-- home section -->
+
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Rodrigo Guedes</h1>
+            <h2>Eu sou 
+                <span style="--i:4;" data-text="Programador">Programador</span>
+                <span style="--i:3;" data-text="Analista">Analista</span>
+                <span style="--i:2;" data-text="Dados">Dados</span>
+                <span style="--i:1;" data-text="Designer">Designer</span>
+            </h2>
+            <p>Sou um desenvolvedor web apaixonado por desafios inovadores, 
+            sempre buscando sair da zona de conforto e explorar novas tecnologias que agreguem valor aos projetos.
+            Meu objetivo é continuar aprendendo e evoluindo como profissional, enfrentando desafios que me permitam 
+            aplicar e expandir meus conhecimentos.</p>
+            <div class="btn-sci">
+                <a href="cv/Cv_RodrigoGuedes.docx" class="btn">Download CV</a>
+                <div class="sci">
+                    <a href="https://github.com/Armaanii" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/rodrigo-guedes-38897ab3/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.instagram.com/roarmani/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/home2.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section -->
+
+    <section class="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Autem labore natus veniam, voluptatibus nam illum sapiente 
+                perferendis consectetur voluptas, facilis optio assumenda</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bxs-paint'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
+                </div>
+                <h3>UI/UX</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Autem labore natus veniam, voluptatibus nam illum sapiente </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-palette'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
+                </div>
+                <h3>Graphic Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Autem labore natus veniam, voluptatibus nam illum sapiente</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-trending-up'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
+                </div>
+                <h3>SEO</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Autem labore natus veniam, voluptatibus nam illum sapiente</p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-slideshow'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
+                </div>
+                <h3>Video Editing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Autem labore natus veniam, voluptatibus nam illum sapiente </p>
+            </div>
+
+            <div class="services-box">
+                <div class="icon">
+                    <i class='bx bx-camera'></i>
+                    <a href="#"><i class='bx bx-arrow-back'></i></a>    
+                </div>
+                <h3>Photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Autem labore natus veniam, voluptatibus nam illum sapiente 
+                perferendis consectetur voluptas, facilis optio assumenda 
+                non possimus totam odio explicabo quis id voluptate!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- resume section -->
+
+    <section class="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2>Por que me Contratar ?</h2>
+                <p class="desc">Sou um profissional comprometido, com habilidades técnicas sólidas e uma 
+                abordagem focada em resultados. Minha experiência em engenharia de sistemas me permite 
+                desenvolver soluções eficientes, otimizar processos e garantir a entrega de projetos 
+                com alta qualidade. Além do conhecimento técnico, trago uma mentalidade analítica e proativa, 
+                buscando sempre inovação e melhoria contínua. Trabalho bem em equipe, comunico-me de forma 
+                clara e estou sempre pronto para enfrentar desafios com criatividade e determinação. 
+                Contratar-me significa agregar valor ao seu time com profissionalismo, dedicação e excelência.</p>
+                <button class="resume-btn active">Experience</button>
+                <button class="resume-btn">Education</button>
+                <button class="resume-btn">Skills</button>
+                <button class="resume-btn">About me</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail experience active">
+                    <h2 class="heading">My <span>Experience</span></h2>
+                    <p class="desc">Aqui estão algumas das empresas que trabalhei..</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year"> 2021 - 2025</p>
+                            <h3>Engenheiro de Sistema</h3> 
+                            <p class="company">Itaú Unibanco</p>
+                            <p>• Desenvolvimento na Modernização da Custódia de Operações de Crédito nas tecnologias Java, 
+                            Python e AWS na comunidade Custódia Ativos PF/PJ.<br>
+                            • Participação no fork da sigla SG3 na comunidade Ativos PJ.</p>  
+                        </div>
+                        <div class="resume-item">
+                            <p class="year"> 2021 - 2021</p>
+                            <h3>Analista de Sistema</h3> 
+                            <p class="company">Prime IT Solutions</p>
+                            <p>• Atuando junto ao Banco Bradesco na manutenção em sistemas desenvolvidos em plataforma Mainframe.</p>  
+                        </div>
+                        <div class="resume-item">
+                            <p class="year"> 2011 - 2018</p>
+                            <h3>Analista de Sistema</h3> 
+                            <p class="company">Grupo Contax.</p>
+                            <p>• Projeto NGR - URA - Oi Telefonia <br>
+                            • Atuando junto a Oi Telefonia e Avaya na criação de Querys, enriquecimento no banco, 
+                            manutenção do Banco de Dados Oi, criações de DashBoard e Painel de Micro Gestão.  </p>  
+                        </div>
+                        <div class="resume-item">
+                            <p class="year"> 2008 - 2011</p>
+                            <h3>Analista de Sistema</h3> 
+                            <p class="company">Dedic GPTI</p>
+                            <p>• Migração das bases de dados do sistema legado para o SEAT<br>
+                            • Convivência do Legado para o SEAT.<br>
+                            • Atualização das bases do SEAT para os eventos que ainda não estão desenvolvidos no SEAT, 
+                            subscrição, conversão de ações, bonificação, desdobramento e etc.</p>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading">My <span>Education</span></h2>
+                    <p class="desc">Estou em busca de um aprendizado constante e de vivência profissional.</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p class="year">2025</p>
+                            <h3>Curso Python</h3>
+                            <p class="company">Santander</p>
+                            <p>Este curso aprofunda os fundamentos da ciência da computação em termos de variáveis, 
+                            condicionais, loops e funções usando a sintaxe de programação do Python.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Datadog to Observability</h3>
+                            <p class="company">Datadog Learning Center</p>
+                            <p>Neste curso introdutório, abordaremos os três pilares da observabilidade e prepararemos 
+                            você para prosseguir para nosso treinamento Datadog Foundation.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Datadog Foundation</h3>
+                            <p class="company">Datadog Learning Center</p>
+                            <p>Este curso oferece um ponto de entrada para a plataforma Datadog, 
+                            apresentando muitos de seus produtos e conceitos básicos, incluindo integrações, 
+                            Monitoramento de Serviço Universal, Catálogo de Serviços, logs, 
+                            métricas, monitores, objetivos de nível de serviço e painéis.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>Introduction to FinOps</h3>
+                            <p class="company">FinOps Foundation Learning</p>
+                            <p>O curso Introduction to FinOps fornece uma compreensão básica das atividades 
+                            que são centrais para o FinOps, bem como a missão da Fundação FinOps.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2024</p>
+                            <h3>AWS Knowledge: Cloud Essentials</h3>
+                            <p class="company">AWS Training Badge</p>
+                            <p>Conhecimento dos conceitos fundamentais da Nuvem AWS com foco nos serviços de Computação, 
+                            Armazenamento, Rede e Banco de Dados da AWS, segurança, arquitetura, preços e suporte.</p>
+                        </div>
+                        <div class="resume-item">
+                            <p class="year">2023</p>
+                            <h3>Java JRE e JDK</h3>
+                            <p class="company">Alura</p>
+                            <p>O curso Java JRE e JDK fornece uma compreensão básica dos primeiros passos com a linguagem.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading">My <span>Skills</span></h2>
+                    <p class="desc">Estou em busca de um aprendizado constante</p>
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5' ></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react' ></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-python' ></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-aws' ></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-postgresql'></i></i>
+                            <span>Postgresql</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail about">
+                    <h2 class="heading">About <span>Me</span></h2>
+                    <p class="desc">Profissional graduado em Sistema da Informação, com mais de 17 anos de experiência na área De TI, 
+                    atuando em empresas nacionais de grande porte, destacando-se os segmentos bancário e telefonia. Sólida experiência 
+                    em programação, apoio a novos colaboradores sobre implementação de melhores práticas, foco de trabalho na qualidade 
+                    e na satisfação dos clientes, excelente comunicação, boa escrita, proatividade e empatia. Profissional altamente 
+                    capacitado para trabalhar em equipe, dinâmico, com iniciativa, facilidade de aprendizado e de bom relacionamento interpessoal, 
+                    dedicado às funções e focado em resultados. Organizado, responsável e flexível.</p>
+
+                    <div class="resume-list">
+                        <div class="resume-item">
+                            <p>Name: <span>Rodrigo Guedes</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender: <span>Male</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Age: <span>40 years Old</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Status: <span>Married</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>City: <span>São Paulo</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality: <span>Brasileiro</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience: <span>17+ Years</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Full time: <span> Available</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>FreeLance: <span>Available</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone: <span>(11)95715-2316</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Email: <span>roh.barros@hotmail.com</span></p>    
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages: <span>English, Portuguese</span></p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2>Vamos Trabalhar Juntos ?</h2>
+                <p>Entre em contato comigo para que possamos conversar sobre como posso agregar valor ao seu projeto ou equipe. Estou à disposição!</p>
+                <div class="contact-detail">
+                    <i class='bx bxs-phone'></i>
+                    <div class="detail">
+                        <p>Phone</p>
+                        <p>(11)95715-2316</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bx-envelope'></i>
+                    <div class="detail">
+                        <p>Email</p>
+                        <p>roh.barros@hotmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-detail">
+                    <i class='bx bxs-map'></i>
+                    <div class="detail">
+                        <p>Address</p>
+                        <p>Av.Bartolomeu de Carlos</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+                <form action="">
+                    <h2 class="heading">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="text" placeholder="Phone Number" required>
+                        <input type="text" placeholder="Email Subject" required>
+                        <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Mensage</button>
+                </form>
+            </div>
+        </div>    
+    </section>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
